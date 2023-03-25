@@ -17,6 +17,7 @@ function determinarFaixaEtaria(idade) {
 }
 function BoasVindas(pessoa) {
     const faixaetaria = determinarFaixaEtaria(pessoa.idade)
+
     console.log(`Olá! Meu nome é ${pessoa.nome}, sou um ${faixaetaria} de ${pessoa.idade} anos, tenho ${pessoa.altura}m e a minha ocupação é ser ${pessoa.profissao}`);
 }
 
